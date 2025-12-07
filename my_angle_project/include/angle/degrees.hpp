@@ -14,7 +14,6 @@ public:
     constexpr degrees operator*(double k) const noexcept { return degrees(v_ * k); }
     constexpr degrees operator/(double k) const noexcept { return degrees(v_ / k); }
 
-    /* логика без <=> */
     constexpr bool operator==(degrees o) const noexcept { return v_ == o.v_; }
     constexpr bool operator!=(degrees o) const noexcept { return !(*this == o); }
     constexpr bool operator<(degrees o)  const noexcept { return v_ < o.v_; }
@@ -29,4 +28,4 @@ inline std::ostream& operator<<(std::ostream& os, degrees d) {
     return os << d.value() << " deg";
 }
 
-} // namespace ang
+}

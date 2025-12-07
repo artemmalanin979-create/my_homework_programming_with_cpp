@@ -1,7 +1,7 @@
 #pragma once
 #include <angle/degrees.hpp>
 #include <angle/radians.hpp>
-#include <cmath>        // M_PI
+#include <cmath>
 
 namespace ang {
 
@@ -14,4 +14,4 @@ inline constexpr degrees to_degrees(radians r) noexcept {
     return degrees(r.value() * 180.0 / pi_v);
 }
 
-} // namespace ang
+}

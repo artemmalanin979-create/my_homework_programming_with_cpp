@@ -28,4 +28,4 @@ inline std::ostream& operator<<(std::ostream& os, radians r) {
     return os << r.value() << " rad";
 }
 
-} // namespace ang
+}

@@ -1,0 +1,3 @@
+/home/artem/dragon/build/CMakeFiles/dragon.dir
+/home/artem/dragon/build/CMakeFiles/edit_cache.dir
+/home/artem/dragon/build/CMakeFiles/rebuild_cache.dir
