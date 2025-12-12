@@ -6,8 +6,8 @@ namespace ang {
 class degrees {
     double v_{0.0};
 public:
-    explicit constexpr degrees(double x = 0.0) noexcept : v_(x) {}
-    constexpr double value() const noexcept { return v_; }
+    explicit constexpr degrees(double x = 0.0) noexcept : v_(x) {} // конструктор
+    constexpr double value() const noexcept { return v_; } // геттер
 
     constexpr degrees operator+(degrees o) const noexcept { return degrees(v_ + o.v_); }
     constexpr degrees operator-(degrees o) const noexcept { return degrees(v_ - o.v_); }

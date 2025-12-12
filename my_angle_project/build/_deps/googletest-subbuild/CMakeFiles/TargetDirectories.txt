@@ -1,0 +1,3 @@
+/home/artem/my_homework_programming_with_cpp/my_angle_project/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/artem/my_homework_programming_with_cpp/my_angle_project/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/artem/my_homework_programming_with_cpp/my_angle_project/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

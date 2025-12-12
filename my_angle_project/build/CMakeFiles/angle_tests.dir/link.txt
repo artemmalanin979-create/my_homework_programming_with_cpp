@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/angle_tests.dir/link.d CMakeFiles/angle_tests.dir/test/angle_test.cpp.o -o angle_tests  lib/libgtest_main.a lib/libgtest.a

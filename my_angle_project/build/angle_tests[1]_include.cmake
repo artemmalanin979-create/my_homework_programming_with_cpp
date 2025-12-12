@@ -1,0 +1,5 @@
+if(EXISTS "/home/artem/my_homework_programming_with_cpp/my_angle_project/build/angle_tests[1]_tests.cmake")
+  include("/home/artem/my_homework_programming_with_cpp/my_angle_project/build/angle_tests[1]_tests.cmake")
+else()
+  add_test(angle_tests_NOT_BUILT angle_tests_NOT_BUILT)
+endif()
